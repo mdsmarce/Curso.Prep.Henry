@@ -1,14 +1,35 @@
-h1{color: blue;}
-img{width: 400px}
+h1{
+	color: blue;
+}
+img{
+	width: 400px;
+	margin-top: 2px;
+	margin-bottom: 5px;
+}
+body{
+	background-image: url("https://img.freepik.com/vector-gratis/fondo-acuarela_220290-40.jpg?w=2000");
+	text-align: center;
+}
+#divClass{
+	display: flex;
+	justify-content: center;
+	justify-self: center;
+	text-align: center;
+	align-content: center;
+}
 #thirdDiv{
 	width: 500px; 
 	height: 600px;
 	background-color: khaki;
 	padding: 50px;
 	border: 5px solid;
-	border-color: saddlebrown
+	border-color: saddlebrown;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
 }
 #spanId{
-	font-size: 18px;
+	font-size: 25px;
 	margin: 50px
 }
