@@ -1,3 +1,4 @@
+<<<<<<< HEAD:09-CSS-Positioning/README.md
 <p align='left'>
     <img  src='../logo.png' height='70px'>
 </p>
@@ -12,6 +13,8 @@
     </td>
   </tr>
 </table>
+=======
+>>>>>>> parent of 88ed6c8 (adds new readme):Lesson09-CSS-Positioning/README.md
 # Lección 9: CSS Intermedio
 
 En esta lección cubriremos:

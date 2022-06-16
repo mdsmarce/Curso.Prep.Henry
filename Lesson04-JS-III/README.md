@@ -1,3 +1,4 @@
+<<<<<<< HEAD:04-JS-III/README.md
 <p align='left'>
     <img  src='../logo.png' height='70px'>
 </p>
@@ -12,6 +13,8 @@
     </td>
   </tr>
 </table>
+=======
+>>>>>>> parent of 88ed6c8 (adds new readme):Lesson04-JS-III/README.md
 # Lección 4: Javascript III (continuación de bucles `for` y Arrays)
 
 En esta lección cubriremos:

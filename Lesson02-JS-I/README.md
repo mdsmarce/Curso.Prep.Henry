@@ -1,3 +1,4 @@
+<<<<<<< HEAD:02-JS-I/README.md
 <img  src='../logo.png' height='70px'>
 <table width="100%" style='table-layout:fixed;'>
   <tr>
@@ -11,6 +12,8 @@
   </tr>
 </table>
 
+=======
+>>>>>>> parent of 88ed6c8 (adds new readme):Lesson02-JS-I/README.md
 # Lección 2: Introducción a Javascript
 
 En esta lección cubriremos:
@@ -27,35 +30,34 @@ En esta lección cubriremos:
 
 ## Introducción a Javascript
 
+<<<<<<< HEAD:02-JS-I/README.md
 JavaScript es un lenguaje de programación que fue creado originalmente para ser usado en el front-end de una pǻgina web. La idea original era poder dar dinamismo a las páginas webs, que en un principio eran estáticas. La introducción del "motor V8" de Google ha mejorado la velocidad y el funcionamiento de JS. Haciendo que JS (javascript) sea la lengua franca de la web, llegando inclusive al Back-End a través de NodeJs.
+=======
+Si imaginamos un sitio web como una casa, el HTML hace de materiales (madera, ladrillos y concreto), el CSS es cómo ponemos todos esos materiales juntos, y Javascript es la electricidad, las cañerías y el gas. Es lo que hace que la página "funcione". Javascript fue diseñado originalmente para ser usado únicamente en el front-end como forma de que los desarrolladores web puedan añadir funcionalidades a sus páginas web, y en sus comienzos era solo eso. Recientemente, la introducción del "_engine_ V8" de Google ha mejorado la velocidad y el funcionamiento de JS. Esto trajo novedades en el desarrollo creando frameworks de Javascript para el front-end, y eventualmente Node.js, que es una manera de correr Javascript en el servidor (back-end).
+>>>>>>> parent of 88ed6c8 (adds new readme):Lesson02-JS-I/README.md
 
-Vamos a aprender los conceptos más básicos de JS:
+Este nuevo desarrollo ha llevado a un resurgimiento de Javascript. Javascript es uno de los lenguajes de programación más utilizados en el mundo. Ahora encontramos que Javascript se usa en front-end, back-end, desarrollo móvil, IoT, y realmente en cualquier lugar donde se usaría un lenguaje de programación tradicional. Recientemente, se lanzó la versión más reciente del lenguaje Javascript (ES6), nos enfocaremos y usaremos ES6 en este curso. Tenga en cuenta, Javascript! = Java. Aunque comparten nombres similares (desafortunadamente, esto fue considerado una característica por los primeros pioneros de Javascript), ahí es donde terminan las similitudes.
 
 ## Variables
 
-Una variable es una forma de almacenar el valor de algo para usar más tarde. (Una nota para aquellos con conocimientos previos de programación: Javascript es un lenguaje de tipado dinámico, una variable se puede configurar (y restablecer) a cualquier tipo, no necesitamos declarar su tipo al iniciar la variable).
+En el corazón de Javascript se encuentran las variables. Una variable es una forma de almacenar el valor de algo para usar más tarde. (Una nota para aquellos con conocimientos previos de programación: Javascript es un lenguaje de tipado débil, una variable se puede configurar (y restablecer) a cualquier tipo, no necesitamos declarar su tipo al iniciar la variable).
 
-Para crear una variable en JavaScript utilizamos la palabra clave `var`, seguida de un espacio y el nombre de la variable (con este nombre podremos hacer referencia a ella luego). Además de declarar una variable, podemos asignarle un valor usando el signo `=`.
-
-> Nota: Las palabras claves o keywords son palabras especiales que utiliza el lenguaje para indicar algo. No podremos usas las palabras claves del lenguaje cómo nombres de variables.
+La anatomía de una variable es primero la palabra clave, un espacio, el nombre que le estamos dando a la variable, un signo de "igual", el valor que le estamos asignando a la variable y luego el punto y coma.
 
 Existen tres formas de declarar una variable:
-
 ```javascript
-    var nombre = 'Juan'; // Vamos a usar principalemente esta forma
+    var nombre = 'Juan';
     let apellido = 'Perez';
     const comidafavorita = 'Pizza';
 ```
 
 ### var
 
-`var` es la forma declarar una variable en ES5 (ES5 es la versión de JS, hoy en día existe ES6 que es la nueva versión, pero que todavía no es la más usada). Esta es una _palabra clave_ genérica para "variable".
-
-Las dos formas siguentes, si bien son válidas, vamos a utilizarlas más adelante en la carrera, cuando tengamos más claros otros conceptos:
+`var` es la forma declarar una variable en ES5. Esta es una _palabra clave_ genérica para "variable".
 
 ### let
 
-`let` es una nueva palabra clave de ES6, esto asignará una variable muy similar a `var`, pero con un comportamiento un poco diferente. Lo más notable es que difiere al crear un "nivel de _scope_" (hablaremos sobre esto más adelante).
+`let` es una nueva palabra clave de ES6, esto asignará una variable muy similar a` var`, pero con un comportamiento un poco diferente. Lo más notable es que difiere al crear un "nivel de _scope_" (hablaremos sobre esto más adelante).
 
 ### const
 
@@ -71,51 +73,48 @@ console.log();
 
 Este método muy simple nos permitirá imprimir en la consola todo lo que pongamos entre paréntesis.
 
-## Tipos de Datos
-
-En ciencias de la computación, un tipo de dato informático o simplemente tipo, es un atributo de los datos que indica la clase de datos que se va a manejar. Esto incluye imponer restricciones en los datos, como qué valores pueden tomar y qué operaciones se pueden realizar.
-
-Los tipos de datos aceptados varían de lenguaje en lenguaje.
-
-### Strings, Numbers, and Booleans
+## Strings, Numbers, and Booleans
 
 Estos son los tipos de datos más básicos en Javascript.
 
 ### Strings
 
-Las "strings" son bloques de texto, siempre se definirán entre comillas, ya sea simple o doble. Cualquier texto entre comillas es una cadena o string.
+Las "strings" son bloques de texto, siempre se definirán entre comillas, ya sea simple o doble. Cualquier texto entre comillas es una cadena.
 
 ```javascript
-var nombrePerro = 'firulais';
+const nombrePerro = 'firulais';
 ```
 ### Numbers
 
 Los números son solo eso, números. Los números NO se envuelven en comillas. Pueden ser negativos también. Javascript tiene una limitación en el tamaño de un número (+/- 9007199254740991), pero muy raramente aparecerá esa limitación en nuestro uso diario.
 
 ```javascript
-var positivo = 27;
-var negativo = -40;
+const positivo = 27;
+const negativo = -40;
 ```
 
 ### Boolean
 
-Los booleanos provienen de la [lógica de Boole](https://es.wikipedia.org/wiki/%C3%81lgebra_de_Boole). Es un concepto que alimenta el código binario y el núcleo de las computadoras. Es posible que haya visto código binario en el pasado (0001 0110…), esto es lógica booleana. Esencialmente significa que tiene dos opciones, activar o desactivar, 0 o 1, verdadero o falso. En Javascript usamos booleanos para significar verdadero o falso. Esto puede parecer simple al principio, pero puede complicarse más adelante.
+Los booleanos provienen de la informática de bajo nivel. Es un concepto que alimenta el código binario y el núcleo de las computadoras. Es posible que haya visto código binario en el pasado (0001 0110…), esto es lógica booleana. Esencialmente significa que tiene dos opciones, activar o desactivar, 0 o 1, verdadero o falso. En Javascript usamos booleanos para significar verdadero o falso. Esto puede parecer simple al principio, pero puede complicarse más adelante.
 
 ```javascript
-var meEncantaJavascript = true;
+const meEncantaJavascript = true;
 ```
-
-Los valores posibles de un dato booleando en JS son: `true` o `false`.
 
 ## Operadores
 
-Vamos a poder realizar operaciones en JavaScript a través de los `operadores`. Básicamente son símbolos que ya conocemos (`+`, `-`, `/`, `*`) que indican al intérprete de JavaScript las operaciones que debe realizar.
-
-Por ejemplo: Para el intérprete al ver el signo `+`, sabe que tiene que ejecutar la función suma (que tiene internamente definida), y toma como parámetros los términos que estén a la izquierda y la derecha del operador.
+Un operador no es otra cosa que una función, pero al ser funciones básicas para el Engine y que se utilizan muchos, se escriben de una forma particular y que en general es corta y simple. Generalmente, los operadores toman dos parámetros y retornan un resultado.
+Por ejemplo: Para el intérprete al ver el signo `+`, sabe que tiene que ejecutar la función suma (que tiene internamente definida), y toma como parámetros los términos que estén a la izquierda y la derecha del operador. De hecho, es equivalente a tener una función que se llame `suma` y que reciba dos parámetros:
 
 ```javascript
 var a = 2 + 3; // 5
-var b = 3 / 3; // 1
+
+function suma(a,b){
+  return a + b;
+  // usamos el mismo operador como ejemplo
+  // Si no deberiamos hacer sumas binarias!
+}
+var a = suma(2,3) // 5
 ```
 
 De hecho, esa forma de escribir tiene un nombre particular, se llama notación notación `infix` o `infija`, en ella se escribe el operador entre los operandos. Pero también existen otro tipos de notación como la `postfix` o `postfija` y la `prefix` o `prefija`. En estas última el operador va a la derecha de los operandos o a la izquierda respectivamente.
@@ -204,7 +203,7 @@ Math.ceil(6.0001) = 7;
 El tipo de datos "string" tiene un método incorporado llamado `.length`. Cualquier cadena que llamemos a esto devolverá la cantidad de caracteres en esa cadena.
 
 ```javascript
-var nombreGato = 'felix';
+const nombreGato = 'felix';
 console.log(nombreGato.length); // 5
 ```
 
@@ -218,8 +217,8 @@ Ahora que tenemos un conjunto de variables, necesitamos funciones para calcularl
 
 ```javascript
     function miFuncion() {}
-    var otraFuncion = function () {};
-    var yOtra = () => {};
+    const otraFuncion = function () {};
+    const yOtra = () => {};
 ```
 
 Usaremos la primera forma en esta lección y hablaremos sobre las otras formas en próximas lecciones.
@@ -261,7 +260,7 @@ function logHola(nombre) {
     console.log( `Hola, ${nombre}`);
 }
 
-var miNombre = 'Antonio';
+const miNombre = 'Antonio';
 logHola(miNombre);
 ```
 
@@ -269,7 +268,7 @@ Podemos agregar múltiples argumentos colocando una coma entre ellos:
 
 ```javascript
 function sumarDosNumeros(a, b) {
-  var suma = a + b;
+  const suma = a + b;
   return suma;
 }
 
@@ -281,7 +280,7 @@ En el ejemplo anterior presentamos la declaración `return`. No vamos a usar `co
 
 ```javascript
 function dividirDosNumeros(a, b) {
-  var producto = a / b;
+  const producto = a / b;
   return producto;
 }
 
@@ -294,11 +293,11 @@ También podemos establecer variables para igualar lo que devuelve una función.
 
 ```javascript
 function restarDosNumeros(a, b) {
-  var diferencia = a - b;
+  const diferencia = a - b;
   return diferencia;
 }
 
-var diferenciaDeResta = restarDosNumeros(10, 9);
+const diferenciaDeResta = restarDosNumeros(10, 9);
 console.log(diferenciaDeResta); // 1
 console.log(diferencia); // undefined
 ```

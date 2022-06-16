@@ -1,3 +1,4 @@
+<<<<<<< HEAD:03-JS-II/README.md
 <p align='left'>
     <img  src='../logo.png' height='70px'>
 </p>
@@ -12,6 +13,8 @@
     </td>
   </tr>
 </table>
+=======
+>>>>>>> parent of 88ed6c8 (adds new readme):Lesson03-JS-II/README.md
 # Lección 3: Javascript II (Flujos de control, operadores de comparación, bucles `for`)
 
 En esta lección cubriremos:

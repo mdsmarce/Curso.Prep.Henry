@@ -1,3 +1,4 @@
+<<<<<<< HEAD:07-JS-VI/README.md
 <p align='left'>
     <img  src='../logo.png' height='70px'>
 </p>
@@ -12,6 +13,8 @@
     </td>
   </tr>
 </table>
+=======
+>>>>>>> parent of 88ed6c8 (adds new readme):Lesson07-JS-VI/README.md
 # Lección 7: Javascript VI (Callbacks)
 
 En esta lección cubriremos:

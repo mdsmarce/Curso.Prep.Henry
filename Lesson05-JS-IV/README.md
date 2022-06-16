@@ -1,3 +1,4 @@
+<<<<<<< HEAD:05-JS-IV/README.md
 <p align='left'>
     <img  src='../logo.png' height='70px'>
 </p>
@@ -12,6 +13,8 @@
     </td>
   </tr>
 </table>
+=======
+>>>>>>> parent of 88ed6c8 (adds new readme):Lesson05-JS-IV/README.md
 # Lección 5: Javascript IV (Objetos)
 
 En esta lección cubriremos:

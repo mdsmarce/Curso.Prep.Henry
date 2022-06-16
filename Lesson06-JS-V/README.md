@@ -1,3 +1,4 @@
+<<<<<<< HEAD:06-JS-V/README.md
 <p align='left'>
     <img  src='../logo.png' height='70px'>
 </p>
@@ -12,6 +13,8 @@
     </td>
   </tr>
 </table>
+=======
+>>>>>>> parent of 88ed6c8 (adds new readme):Lesson06-JS-V/README.md
 # Lección 6: Javascript V (Clases y `prototype`)
 
 En esta lección cubriremos:

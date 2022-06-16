@@ -1,3 +1,4 @@
+<<<<<<< HEAD:08-HTML/README.md
 <p align='left'>
     <img  src='../logo.png' height='70px'>
 </p>
@@ -13,6 +14,8 @@
   </tr>
 </table>
 
+=======
+>>>>>>> parent of 88ed6c8 (adds new readme):Lesson08-HTML/README.md
 # Lección 8: Fundamentos HTML/CSS
 
 En esta clase veremos:
