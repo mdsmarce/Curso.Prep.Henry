@@ -32,13 +32,40 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 /* Ejercicio 4: */
 
 /* Acá va tu código */
-
+#ejercicioCuatro{
+	position: fixed;
+	top: 0;
+	left: 0;
+}
 
 
 /* Ejercicio 5: */
 
 /* Acá va tu código */
+#ejercicioCinco{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
 
+/* Ejercicio 6: */
+#ejercicioCinco{
+	flex-direction: row-reverse;
+}
 
-
-/* Ejercicio 6. */
+/* Ejercicio 7: */
+#ejercicioSiete{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+#elementoDos{
+	display: flex;
+	align-self: flex-start;
+	justify-self: center;
+}    
+#elementoTres{
+	display: flex;
+	align-self: flex-end;
+	justify-self: center;
+}
